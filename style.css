@@ -18,7 +18,6 @@ a:hover {
   flex-direction: column;
 }
 #TL {
-  font-size: xx-large;
   width: 40%;
 }
 .wbg {
@@ -32,5 +31,10 @@ a:hover {
   width: 150px;
   border-radius: 50%;
   object-fit: cover;
+  display: inline-block;
   border: 4px solid rgb(27, 69, 183);
+}
+button#shopNow :hover {
+  background-color: white;
+  color: rgb(27, 69, 183);
 }
