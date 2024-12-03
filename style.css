@@ -6,3 +6,18 @@ a:hover {
   text-decoration: underline;
   color: white;
 }
+.horizontalContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.verticalContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#TL {
+  font-size: xx-large;
+  width: 40%;
+}
