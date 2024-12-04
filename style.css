@@ -34,7 +34,8 @@ a:hover {
   display: inline-block;
   border: 4px solid rgb(27, 69, 183);
 }
-button #shopNow :hover {
+button:hover {
   background-color: white;
   color: rgb(27, 69, 183);
+  cursor: pointer;
 }
