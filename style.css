@@ -1,8 +1,8 @@
-a {
+header a {
   text-decoration: none;
   color: white;
 }
-a:hover {
+header a:hover {
   text-decoration: underline;
   color: white;
 }
@@ -39,4 +39,14 @@ button:hover {
   background-color: white;
   color: rgb(27, 69, 183);
   cursor: pointer;
+}
+ul {
+  list-style: none;
+}
+ul a {
+  text-decoration: none;
+  font-size: larger;
+}
+ul b {
+  font-size: x-large;
 }
