@@ -50,3 +50,14 @@ ul a {
 ul b {
   font-size: x-large;
 }
+li {
+  margin-bottom: 15px;
+  color: rgb(27, 69, 183);
+}
+#forForm {
+  background-color: white;
+  margin: 15px;
+}
+input::placeholder {
+  font-size: x-large;
+}

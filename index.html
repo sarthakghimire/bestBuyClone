@@ -24,10 +24,18 @@
           "
         >
           <nav>
-            <a href="#">Yard Bird&nbsp;</a>
-            <a href="#">Best Buy Outlet&nbsp;</a>
-            <a href="#">Best Buy Business&nbsp;</a>
-            <a href="#">Shop with an Expert&nbsp;</a>
+            <a href="#" style="font-size: 18px; margin: 45px"
+              >Yard Bird&nbsp;</a
+            >
+            <a href="#" style="font-size: 18px; margin: 45px"
+              >Best Buy Outlet&nbsp;</a
+            >
+            <a href="#" style="font-size: 18px; margin: 45px"
+              >Best Buy Business&nbsp;</a
+            >
+            <a href="#" style="font-size: 18px; margin: 45px"
+              >Shop with an Expert&nbsp;</a
+            >
           </nav>
         </div>
         <div
@@ -43,19 +51,28 @@
         >
           <div
             id="midLeft"
-            style="display: flex; justify-content: center; align-items: center"
+            style="
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+            "
           >
-            <a href="#">BEST BUY</a>
-            <a href="#">Menu</a>
+            <a href="#" style="font-size: 35px; margin: 50px">BEST <br />BUY</a>
+            <a href="#" style="font-size: 30px; margin: 20px">Menu</a>
             <input
               type="text"
               placeholder="What can we help you find today?"
-              style="padding-left: 40px; padding-right: 40p"
+              style="
+                padding-left: 40px;
+                padding-right: 40px;
+                width: 600px;
+                height: 50px;
+              "
             />
           </div>
           <div id="midRight">
-            <a href="#">Aiea</a>
-            <a href="#">Cart</a>
+            <a href="#" style="font-size: 30px; margin: 20px">Aiea</a>
+            <a href="#" style="font-size: 30px; margin: 20px">Cart</a>
           </div>
         </div>
         <div
@@ -538,7 +555,7 @@
       </div>
     </main>
     <footer>
-      <div style="background-color: rgb(240, 242, 244); height: 1000px">
+      <div style="background-color: rgb(240, 242, 244); height: 1030px">
         <div class="horizontalContainer" style="margin: 100px">
           <div class="verticalContainer">
             <img src="x1.png" />
@@ -575,12 +592,14 @@
         <div class="horizontalContainer">
           <div
             if="forList"
-            class="verticalContainer"
+            class=""
             style="
-              width: 70%;
-              border: 1px solid black;
+              width: 55%;
               height: 560px;
               margin: 10px;
+              display: flex;
+              justify-content: space-between;
+              flex-direction: column;
             "
           >
             <div class="" style="display: flex; justify-content: space-between">
@@ -638,18 +657,23 @@
             </div>
           </div>
           <div
-            if="forForm"
-            class="verticalContainer"
+            id="forForm"
+            class=""
             style="
               width: 30%;
               border: 1px solid white;
               height: 560px;
               margin: 10px;
+              display: flex;
+              justify-content: space-between;
+              flex-direction: column;
             "
           >
-            <div><a href="#">Sign in or Create Account</a></div>
+            <div style="height: 20%">
+              <a href="#">Sign in or Create Account</a>
+            </div>
             <hr />
-            <div class="verticalContainer">
+            <div class="">
               <div>Get the latest deals and more.</div>
               <div class="horizontalContainer">
                 <div><input type="email" placeholder="Enter Your Email" /></div>
@@ -668,7 +692,7 @@
             font-size: larger;
           "
         >
-          <div>
+          <div style="margin: 15px">
             How was your experience?
             <a href="#">Give feedback about our website</a>
           </div>
